@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 45a2c1dc68338354b9ec9e459ca0194a
+guid: d01240c1bf8585843b564e83c4bfc4de
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5291295504240118319
-    second: Enemy_2_A_Small_0
+      213: -7809013036171143990
+    second: Menu_BTN_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy_2_A_Small_0
+      name: Menu_BTN_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 5
-        width: 122
-        height: 118
+        x: 0
+        y: 0
+        width: 210
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2a8ad30a357e6940800000000000000
-      internalID: 5291295504240118319
+      spriteID: ac4df9c7400d0a390800000000000000
+      internalID: -7809013036171143990
       vertices: []
       indices: 
       edges: []
