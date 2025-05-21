@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b6710328609c90f41875a7f4513061a9
+guid: e155ff03dafdb204eac6016ced34ea6c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -513521531776156799
-    second: Missile_D_Small_0
+      213: 115342209750059647
+    second: Boss_HP_Table_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Missile_D_Small_0
+      name: Boss_HP_Table_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 1
-        width: 46
-        height: 62
+        x: 0
+        y: 0
+        width: 1040
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18bb7f933ea9fd8f0800000000000000
-      internalID: -513521531776156799
+      spriteID: f7ac2cfe027c99100800000000000000
+      internalID: 115342209750059647
       vertices: []
       indices: 
       edges: []

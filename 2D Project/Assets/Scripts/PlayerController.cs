@@ -11,6 +11,14 @@ public class PlayerController : MonoBehaviour //플레이어 케릭터에 부착해서 사용
     private float sizewidth;
     private float sizeheight;
 
+    private int score;
+    public int Score
+    {
+        //score값이 음수가 되지 않도록
+        set => score = Mathf.Max(0, value);
+        get => score;
+    }
+
     void Awake()
     {
         movement2D = GetComponent<Movement2D>();

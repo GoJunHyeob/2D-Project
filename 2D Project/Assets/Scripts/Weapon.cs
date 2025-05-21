@@ -6,7 +6,7 @@ public class Weapon : MonoBehaviour
     [SerializeField]
     private GameObject projectilePrefab; // 공격할 때 생성되는 발사체 프리펩
     [SerializeField]
-    private float attackRate = 0.5f; //공격 속도
+    private float attackRate = 0.1f; //공격 속도
 
     public void StartFiring()
     {
