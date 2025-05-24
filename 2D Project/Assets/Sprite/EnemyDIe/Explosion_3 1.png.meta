@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7ce9784c64f6664499ba242efd07757a
+guid: 943b197d87ff07a4a891766db68e6926
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5066707073833446149
-    second: HP_Icon_0
+      213: 5095992106432653449
+    second: Explosion_3 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HP_Icon_0
+      name: Explosion_3 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 115
-        height: 99
+        x: 297
+        y: 309
+        width: 207
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50b2dc43d3f805640800000000000000
-      internalID: 5066707073833446149
+      spriteID: 988ec1232d998b640800000000000000
+      internalID: 5095992106432653449
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Explosion_3 1_0: 5095992106432653449
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

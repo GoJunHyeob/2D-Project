@@ -186,6 +186,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageData: {fileID: 11400000, guid: 5b1c702390f46f44e958e074f94aabdd, type: 2}
   enemyPrefab: {fileID: 8647946153561409037, guid: f927bf3e9fe415a4f9a73020a9f70dc3, type: 3}
+  enemyHpSliderPrefab: {fileID: 3673644180067444754, guid: 1c831802f58fa09429202ed69ff4b4df, type: 3}
+  canvasTransform: {fileID: 1853201804}
   spawnTime: 0.35
 --- !u!4 &314338558
 Transform:
@@ -618,6 +620,7 @@ GameObject:
   - component: {fileID: 902101734}
   - component: {fileID: 902101736}
   - component: {fileID: 902101735}
+  - component: {fileID: 902101738}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -668,7 +671,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -2671441867597560249, guid: 0e24f89f3fd0bd5419af317626ab8099, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -711,8 +714,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5acdf5f5c6c3de240ba38d484702fa09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextSceneName: GameOver
   stageData: {fileID: 11400000, guid: 5b1c702390f46f44e958e074f94aabdd, type: 2}
   keyCodeAttack: 32
+  anim: {fileID: 0}
+  bestscore: 0
 --- !u!114 &902101733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -817,6 +823,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 10
+--- !u!95 &902101738
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902101729}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8132eb4fa2a367249af7a932410ed4ca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &932038810
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,7 +879,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1.0039673, y: 0.78100014}
+  m_AnchoredPosition: {x: -1.0039062, y: 0.78100014}
   m_SizeDelta: {x: 2.008, y: 14.503}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &932038812
