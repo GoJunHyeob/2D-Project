@@ -6,13 +6,16 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]
     private StageData stageData; //적 생성을 위한 스테이지 크기 정보
     [SerializeField]
-    private GameObject enemyPrefab; //  복제해서 생성할 적 캐릭터 프리펩
+    private GameObject[] enemyPrefab; //  복제해서 생성할 적 캐릭터 프리펩
     [SerializeField]
     private GameObject enemyHpSliderPrefab; //적 체력을 나타내는 Slider UI프리펩
     [SerializeField]
     private Transform canvasTransform; //UI를 표현하는 Canvas 오브젝트의 Transform
     [SerializeField]
     private float spawnTime; // 생성 주기
+    [SerializeField]
+    private float rangedProbality; //원거리 적 생성확률
+    private int id = 0;  //적 프리펩 아이디 설정
 
     private void Awake()
     {
@@ -28,8 +31,13 @@ public class EnemySpawner : MonoBehaviour
             float positionX = Random.Range(stageData.LimitMin.x + 0.5f, stageData.LimitMax.x - 0.5f);
             //적 생성 위치
             Vector3 position = new Vector3(positionX, stageData.LimitMax.y, 0.0f);
+            //프리펩 아이디 0으로 초기화
+            id = 0; 
+            //20% 확률로 프리펩 아이디를 바꾸어 다른 적 생성
+            if (Random.value >= 1-rangedProbality)
+                id = 1;
             //적 캐릭터 생성
-            GameObject enemyClone = Instantiate(enemyPrefab, position, Quaternion.identity);
+            GameObject enemyClone = Instantiate(enemyPrefab[id], position, Quaternion.identity);
             //적 체력을 나타내는 Slider UI 생성 및 설정
             SpawnEnemyHpSlider(enemyClone);
             //spawnTime만큼 대기

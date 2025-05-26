@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: c45b1e20de97d074491f488455f398ef
+guid: 53f9211e672d8d14eb2aa951600d1657
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -247037112251525876
-    second: 08_0
+      213: 3871612080142871573
+    second: Header_0
+  - first:
+      213: -5798139035065092939
+    second: Header_1
+  - first:
+      213: -3911962563366223010
+    second: Header_2
+  - first:
+      213: -1531865889650050095
+    second: Header_3
+  - first:
+      213: -1904077234400813377
+    second: Header_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 08_0
+      name: Header_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 122
-        height: 119
+        width: 60
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c05d8e52e09529cf0800000000000000
-      internalID: -247037112251525876
+      spriteID: 51ce6099caabab530800000000000000
+      internalID: 3871612080142871573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Header_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 76
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b47e98744fd88fa0800000000000000
+      internalID: -5798139035065092939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Header_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e530eeb66cae5b9c0800000000000000
+      internalID: -3911962563366223010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Header_3
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbfedbe618bdbae0800000000000000
+      internalID: -1531865889650050095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Header_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 0
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe91a2f7db5395e0800000000000000
+      internalID: -1904077234400813377
       vertices: []
       indices: 
       edges: []
@@ -138,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      08_0: -247037112251525876
+      Header_0: 3871612080142871573
+      Header_1: -5798139035065092939
+      Header_2: -3911962563366223010
+      Header_3: -1531865889650050095
+      Header_4: -1904077234400813377
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

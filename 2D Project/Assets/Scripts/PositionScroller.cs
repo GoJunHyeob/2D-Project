@@ -11,9 +11,11 @@ public class PositionScroller : MonoBehaviour
     private float moveSpeed = 3.0f;
     [SerializeField]
     private Vector3 moveDirection = Vector3.down;
+   
 
     public void Update()
     {
+
         //배경이 moveDirection방향으로 moveSpeed 속도로 이동
         transform.position += moveDirection * moveSpeed * Time.deltaTime;
 

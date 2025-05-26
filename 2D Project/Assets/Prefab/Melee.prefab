@@ -189,10 +189,10 @@ PrefabInstance:
       addedObject: {fileID: 1493187323543462095}
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 12906385ee05e7e4f87f1c5ac50a095c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1720162403544485240}
+      addedObject: {fileID: 7365744200042246562}
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 12906385ee05e7e4f87f1c5ac50a095c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7365744200042246562}
+      addedObject: {fileID: 1720162403544485240}
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 12906385ee05e7e4f87f1c5ac50a095c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5219334303295248271}
@@ -230,20 +230,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1720162403544485240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8647946153561409037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ef0e2908961f66428bf29567ad0f2bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  moveDirection: {x: 0, y: -1, z: 0}
 --- !u!58 &7365744200042246562
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -280,6 +266,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.5}
   m_Radius: 0.5
+--- !u!114 &1720162403544485240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8647946153561409037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef0e2908961f66428bf29567ad0f2bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  moveDirection: {x: 0, y: -1, z: 0}
 --- !u!114 &5219334303295248271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,6 +295,10 @@ MonoBehaviour:
   damage: 1
   scorePoint: 10
   explosionPrefab: {fileID: 7500016293606568778, guid: b5216aba0dd0cc948a959ac53a021ff8, type: 3}
+  itemPrefabs:
+  - {fileID: 5499961412954645180, guid: 1cf44720c2bf02c418773694022478c4, type: 3}
+  - {fileID: 5499961412954645180, guid: 5d9b323232551cf4dacf8abaf58f5540, type: 3}
+  - {fileID: 5499961412954645180, guid: 56165e2e0e89a5f4abb0e4681b46b014, type: 3}
 --- !u!114 &-1722722211320345942
 MonoBehaviour:
   m_ObjectHideFlags: 0

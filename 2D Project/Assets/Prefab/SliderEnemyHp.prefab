@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 3504230019695616476}
   - component: {fileID: -4468660956360455479}
   - component: {fileID: -411632473381591729}
+  - component: {fileID: 6451278770990962554}
   m_Layer: 5
   m_Name: SliderEnemyHp
   m_TagString: Untagged
@@ -152,6 +153,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e240f514bf4c40b49ad15cb1284f2054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!223 &6451278770990962554
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3673644180067444754}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: -10
+  m_TargetDisplay: 0
 --- !u!1 &6289351658993102450
 GameObject:
   m_ObjectHideFlags: 0

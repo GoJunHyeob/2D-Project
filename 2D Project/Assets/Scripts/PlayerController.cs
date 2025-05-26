@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour //플레이어 케릭터에 부착해서 사용
     [SerializeField]
     private KeyCode keyCodeAttack = KeyCode.Space;
     [SerializeField]
+    private GameObject pauseUI;
+
     private Animator anim;
     private bool isDead = false;
     private Movement2D movement2D;
@@ -18,6 +20,7 @@ public class PlayerController : MonoBehaviour //플레이어 케릭터에 부착해서 사용
     private int score;
     public int bestscore = 0;
 
+    public bool isPause = false;
     private float sizewidth;
     private float sizeheight;
     
@@ -45,6 +48,9 @@ public class PlayerController : MonoBehaviour //플레이어 케릭터에 부착해서 사용
     {
         //죽었을 경우 이동 공격 못하게
         if (isDead == true) return;
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Pause();
 
         if (score > bestscore)
             bestscore = score;
@@ -92,6 +98,22 @@ public class PlayerController : MonoBehaviour //플레이어 케릭터에 부착해서 사용
         PlayerPrefs.SetInt("BestScore", bestscore);
         //플레이어 사망 시 nextSreenName 씬으로 이동
         SceneManager.LoadScene(NextSceneName);
+    }
+
+    public void Pause()
+    {
+        if (isPause)
+        {
+            isPause = false;
+            Time.timeScale = 1;
+            pauseUI.SetActive(false);
+        }
+        else
+        {
+            isPause = true;
+            Time.timeScale = 0;
+            pauseUI.SetActive(true);
+        }
     }
 }
 
